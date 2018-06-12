@@ -6,7 +6,6 @@ USER jboss
 RUN ls /opt/jboss/
 
 ADD standalone.xml /opt/jboss/keycloak/standalone/configuration/standalone.xml
-ADD standalone-ha.xml /opt/jboss/keycloak/standalone/configuration/standalone-ha.xml
 ADD keycloak.jks /opt/jboss/keycloak/standalone/configuration/keycloak.jks
 
 EXPOSE 8080
