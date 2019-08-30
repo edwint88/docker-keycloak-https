@@ -1,5 +1,6 @@
 # docker-keycloak-https
-This is how one should set the Keycloak to work with a self signed certificate
+This is how one should set the Keycloak to work with a self signed certificate 
+In the future Keycloak versions this can be set from the config files.
 
 # Keycloak.jks
 is the one from here: https://www.keycloak.org/docs/3.3/server_installation/topics/network/https.html
